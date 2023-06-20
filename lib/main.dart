@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:widgets_app/config/theme/app_theme.dart';
+import 'package:widgets_app/presentation/screens/home/home_sceen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -15,13 +16,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor: 5).getTheme(),
-      home: Scaffold(
-        body: Center(
-            child: FilledButton(
-          child: const Text('papucho'),
-          onPressed: () {},
-        )),
-      ),
+      home: const HomeScreen(),
     );
   }
 }
