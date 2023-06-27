@@ -39,4 +39,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Statetful widget animado',
       link: '/animated',
       icon: Icons.info_outline),
+  MenuItem(
+      title: 'Ui Controls + Tiles',
+      subTitle: 'Controles de pantalla',
+      link: '/ui-controls',
+      icon: Icons.ads_click_rounded),
 ];
