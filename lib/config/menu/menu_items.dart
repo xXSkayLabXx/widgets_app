@@ -44,4 +44,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Controles de pantalla',
       link: '/ui-controls',
       icon: Icons.ads_click_rounded),
+  MenuItem(
+      title: 'Introduccion a la app',
+      subTitle: 'pequeño tutorial',
+      link: '/tutorial',
+      icon: Icons.accessibility_rounded),
 ];
